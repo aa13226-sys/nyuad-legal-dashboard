@@ -224,7 +224,7 @@ export default function Dashboard() {
         <div className="mt-12 bg-gradient-to-br from-slate-900 to-slate-800 rounded-xl shadow-2xl p-10 text-white">
           <h2 className="text-3xl font-bold mb-6">Executive Summary</h2>
           <p className="text-lg leading-relaxed">
-            Outside counsel spend totals **{totalSpendAED.toFixed(1)} M AED** ($${totalSpendUSD.toFixed(1)} \text{M USD}$) from FY22/23 to FY26 YTD. The overall trend shows a moderate growth with an **{cagrDisplay} CAGR** over the past three full academic years.
+            Outside counsel spend totals **{totalSpendAED.toFixed(1)} M AED** (${totalSpendUSD.toFixed(1)} M USD}$) from FY22/23 to FY26 YTD. The overall trend shows a moderate growth with an **{cagrDisplay} CAGR** over the past three full academic years.
             A small group of three firms dominates **{top3FirmShare}% of total spend**, creating significant concentration risk. A formal panel review starting in FY27 is essential for better governance and could yield cost savings of **0.5–1 M AED annually**.
           </p>
         </div>
